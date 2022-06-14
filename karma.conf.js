@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/yash-angular'),
+      dir: require('path').join(__dirname, './coverage/adaptive-card'),
       subdir: '.',
       reporters: [
         { type: 'html' },
