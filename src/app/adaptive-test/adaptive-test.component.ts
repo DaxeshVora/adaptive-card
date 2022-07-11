@@ -11,9 +11,6 @@ import * as AdaptiveCards from 'adaptivecards';
 
 export class AdaptiveTestComponent {
 
-
-	
-
 @ViewChild('cardContainer1') cardContainer1!: ElementRef;
 @ViewChild('cardContainer2') cardContainer2!: ElementRef;
 @ViewChild('cardContainer3') cardContainer3!: ElementRef;
